@@ -1,0 +1,25 @@
+{
+  "name": "blogwebsite",
+  "version": "1.0.0",
+  "description": "Simple Blogpost Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Soumil4561/Blog-Website.git"
+  },
+  "author": "Soumil Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Soumil4561/Blog-Website/issues"
+  },
+  "homepage": "https://github.com/Soumil4561/Blog-Website#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
