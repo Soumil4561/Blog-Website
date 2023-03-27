@@ -1,10 +1,17 @@
 <%- include("partials/header.ejs") -%>
 
-<% for (let i=0; i< postTitle.length; i++){ %>
+<% post.forEach(function(post){ %>
     <div class="post">
-        <h2 class="postTitle"><%= postTitle[i] %></h2>
-        <p class="postContent"> <%= postContent[i]%> <a href="www.google.com">Read More</a> </p> 
-        
+        <h2 class="postTitle"><%= post.title %></h2>
+        <p class="postContent"> 
+            <% if(post.content.length > 100){ %>
+                <%= post.content.substring(0, 100) + "..." %>
+                <a href="/post/<%= post.title %>">Read more</a>
+            <% } else { %>
+                <%= post.content %>
+            <% } %>
+        </p> 
     </div>
-<% } %>
+<% }); %>
+
 <%- include("partials/footer.ejs") -%>

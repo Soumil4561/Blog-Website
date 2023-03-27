@@ -72,9 +72,8 @@ h1{
     resize: none;
 }
 
-.postContent{
-        width: 250px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-   }
+.post{
+    margin-left: 50px;
+}
+
+
