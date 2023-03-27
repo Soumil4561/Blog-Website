@@ -1,0 +1,10 @@
+<%- include("header.ejs") -%>
+
+<% for (let i=0; i< postTitle.length; i++){ %>
+    <div class="post">
+        <h2 class="postTitle"><%= postTitle[i] %></h2>
+        <p class="postContent"> <%= postContent[i]%> <a href="www.google.com">Read More</a> </p> 
+        
+    </div>
+<% } %>
+<%- include("footer.ejs") -%>

@@ -1,0 +1,13 @@
+<%- include("header.ejs") -%>
+    <h1 class="composeHeading">Compose</h1><br><br>
+
+    <form action="/compose" method="post"><br>
+    <div class="inpbox">
+        <label for="postTitle"class="composeLabel" >Title</label ><br>
+        <input name="postTitle" placeholder="Title" type="text" class="composeInput" style="height: 30px"><br>
+        <label for="postBody" class="composeLabel inpbox" >Post</label><br>
+        <textarea name="postContent" placeholder="Body" rows="10" cols="50" class="composeInput"></textarea>
+    </div>
+    <button type="submit" class="composeButton">Publish</button>
+    </form>
+<%- include("footer.ejs") -%>

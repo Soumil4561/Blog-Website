@@ -1,0 +1,80 @@
+.header{
+    background-color: #f1f1f1 ;
+    padding: 30px;
+    overflow: hidden;
+}
+
+h1{
+    font-size: 25px;
+    margin-left: 20px;
+    float: left;
+    text-align: center;
+    line-height:25px;
+}
+
+.header-buttons{
+    margin-right: 20px;
+    line-height:25px;
+    font-size: 15px;
+    color: #333;
+    text-decoration: none;
+    float: right;
+    text-align: center;
+    border-style: hidden;
+}
+
+.footer{
+    background-color: #f1f1f1;
+    padding: 10px;
+    overflow: hidden;
+    margin-top: 400px;
+    text-align: center;
+}
+
+.composeHeading{
+    font-size: 20px;
+    margin-left: 20px;
+    float: left;
+    text-align: center;
+    line-height:25px;
+}
+
+.inpbox{
+    text-align: center;
+}
+
+.composeInput{
+    margin-top: 5px;
+    width: 80%;
+    height: 150px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    
+}
+
+.composeLabel{
+    border-width: 100px;
+    text-align: left;
+}
+
+.composeButton{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 10%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+.postContent{
+        width: 250px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+   }
